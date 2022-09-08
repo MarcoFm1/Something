@@ -3,9 +3,29 @@ body {
     background-color: white;
     color: black;
     font-size: 25px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
   }
+
+  /*title*/
+  .title{
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  /*paragraph*/
+  .par{
+    text-align: center;
+  }
+
+  .switch-part{
+    padding: 10px;
+    box-shadow: 10px;
+  }
+
   
-  .dark-mode {
+  .dark-mode{
     background-color: black;
     color: white;
   }
@@ -65,11 +85,11 @@ body {
   }
   
   /* Rounded sliders */
-  .slider.round {
+.slider.round {
     border-radius: 34px;
   }
   
-  .slider.round:before {
+.slider.round:before {
     border-radius: 50%;
   }
   
